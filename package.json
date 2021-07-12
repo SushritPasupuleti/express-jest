@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/SushritPasupuleti/express-jest/issues"
   },
-  "homepage": "https://github.com/SushritPasupuleti/express-jest#readme"
+  "homepage": "https://github.com/SushritPasupuleti/express-jest#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jest": "^27.0.6",
+    "supertest": "^6.1.3"
+  }
 }
