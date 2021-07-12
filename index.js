@@ -10,8 +10,8 @@ app.get('/hello-there', (req, res) => {
     res.send('General Kenobi!').status(200);
   })
 
-app.listen(port, () => {
+server = app.listen(port, () => {
   console.log(`Server running on Port ${port} 🚀`)
 })
 
-module.exports = app;
+module.exports = server;
