@@ -4,7 +4,8 @@
   "description": "Testing Express with jest",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "testAsync": "jest --detectOpenHandles"
   },
   "repository": {
     "type": "git",
