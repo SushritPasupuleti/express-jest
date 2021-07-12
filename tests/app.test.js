@@ -5,7 +5,6 @@ describe('API Test', () => {
     it('GET /', () => {
         return request(app)
         .get('/')
-        .expect('Content-Type', /json/)
         .expect(200)
 })
 })
