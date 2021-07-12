@@ -5,6 +5,8 @@ describe('API Test', () => {
     it('GET /', () => {
         return request(app)
         .get('/')
-        .expect(200)
+        .expect(200).then((res) => {
+            expect(res.body).toBeDefined();
+        })
 })
 })
